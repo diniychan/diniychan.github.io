@@ -3230,7 +3230,7 @@ textarea.form-control-lg {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: blue;
+    color: rgb(255, 0, 0);
   }
   10% {
     color: #8e44ad;
@@ -3242,16 +3242,16 @@ textarea.form-control-lg {
     color: #d35400;
   }
   40% {
-    color: blue;
+    color: rgb(212, 255, 0);
   }
   50% {
     color: #34495e;
   }
   60% {
-    color: blue;
+    color: rgb(119, 255, 0);
   }
   70% {
-    color: #2980b9;
+    color: #b229b9;
   }
   80% {
     color: #f1c40f;
