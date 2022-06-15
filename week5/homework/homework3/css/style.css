@@ -69,9 +69,8 @@
   /* Row */
 .row {
     display:flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(249, 129, 129);
     text-align: center;
-    align-items: center;
   }
   
   /* Column */
@@ -126,10 +125,6 @@
     flex-wrap: wrap;
    
   }
-.feat{
-  
-}
-
 
 
 .parag{
@@ -164,7 +159,36 @@
           width: 50%;
           }
   
+  @media screen and (max-width: 768px) {
+    .row {
+    flex-wrap: wrap;
+    }
+    .row2 {
+      flex-wrap: wrap;
+      }
+    .column {
+    width: 50%;
+    }
+    .column2 {
+      width: 50%;
+      }
+  }
+
   
+  @media screen and (max-width: 480px) {
+    .row {
+      flex-wrap: wrap;
+      }
+      .row2 {
+        flex-wrap: wrap;
+        }
+    .column {
+    width: 100%;
+    }
+    .column2 {
+      width: 100%;
+      }
+  }
   
 
 
