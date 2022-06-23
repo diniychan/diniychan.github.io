@@ -46,6 +46,7 @@ color: white; }
 
 
 .grid-container {
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-areas:
   'side logo logo nav nav nav'
