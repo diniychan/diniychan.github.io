@@ -1,0 +1,363 @@
+#container {
+    font-family: sans-serif;
+    background-image: url(../img/header.png),url('../img/header.png') , url('../img/footer1.png'), url('../img/footer2.png'),url('../img/footer2.png'),url(../img/who\ we\ are\ background@2x.png);
+    background-position: top right,top right, bottom left, bottom center, bottom right,bottom;
+    background-size: 40%,310px, 1200px 1000px,1500px 650px,1000px 700px;
+    background-repeat: no-repeat;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+}
+
+.menu {
+    padding: 30px 15px;
+}
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+
+}
+.menu a:hover {
+    text-decoration: underline;
+    color: rgb(115, 255, 0);
+}
+.logo {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.sbcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socmed {
+    width: 40%;
+    font-size: 30px;
+    padding-top: 50px;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+}
+.biotext {
+    width: 100%;
+    
+}
+.wwa{
+    font-size: 50px;
+}
+.scroll {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#wwo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+}
+.grey{
+    font-size: 20px;
+    color: rgb(114, 109, 109);
+}
+.button {
+    background-color: #ddd;
+    background-color: rgb(7, 43, 201);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    color: aqua;
+}
+
+.button2 {
+    background-color: #ddd;
+    background-color: rgb(7, 43, 201);
+    background-image: linear-gradient(to right,blue,blue,white);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 30px;
+    margin-right: 20px;
+    width: 100px;
+    float: right;
+}
+
+.button2 a {
+    text-decoration: none;
+}
+
+.button2 a:hover {
+    color: aqua;
+}
+
+#thirdpage {
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+}
+
+.toptext {
+    margin-left: 100px;
+}
+
+.topboxes {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.btmboxes {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.box1 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.box2 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.box3 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.box4 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.box5 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.box6 {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+h3 {
+    color: blueviolet;
+}
+
+#fourthpage {
+    background-color: #d8d8d8;
+    background-image: url(../img/who\ we\ are\ background@2x.png);
+}
+
+.top {
+    padding: 10px;
+    text-align: center;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    background-color: white;
+}
+
+.column1 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.column2 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    background-color: white;
+}
+
+.column2 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.column3 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    background-color: white;
+}
+
+.column3 h1 {
+    color: blue;
+    margin: 50px;
+    font-size: 50px;
+}
+
+#fifthpage {
+    margin-top: 50px;
+}
+
+.toppart {
+    text-align: center;
+}
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #eed;
+  }
+
+@media screen and (max-width: 700px) {
+    .topright a {
+        color: black;
+    }
+
+    .icon {
+        flex-direction: row;
+    }
+
+    .midtext {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .biopic {
+        width: 100%;
+    }
+
+  
+
+    .box1 {
+        margin: 10px;
+    }
+
+    .box2 {
+        margin: 10px;
+    }
+
+    .box3 {
+        margin: 10px;
+    }
+
+    .box4 {
+        margin: 10px;
+    }
+
+    .box5 {
+        margin: 10px;
+    }
+
+    .box6 {
+        margin: 10px;
+    }
+
+    .column1 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .column2 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .column3 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .footer {
+        color: burlywood;
+    }
+}
+
