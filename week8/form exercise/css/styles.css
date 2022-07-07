@@ -23,10 +23,15 @@
     float: right;
     width: 170px;
 }
-.submit{
+.submit1{
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+.submit{
+    background-color: #04AA6D;
+    border-radius: 25px;
+    width: 100px;
+    color: #ffffff;
+  }
