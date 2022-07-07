@@ -1,0 +1,16 @@
+
+.word{
+    color: white;
+}
+.gif{
+    width: 500px;
+}
+.container{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image:url(../img/WallpaperDog-5506002.jpg) ;
+    width: 2000px;
+    height: 1000px;
+}
