@@ -1,0 +1,328 @@
+body{
+    margin: auto;
+    background-color: #e1dfba;
+    background-size: cover;
+}
+
+.fontwhite{
+  color: #ffffff;
+}
+.navi{
+    justify-content: center;
+    display: flex;
+    width: 1481px;
+}
+.navilogo{
+    justify-content: space-between;
+    display: flex;
+}
+.logoname{
+    float: left;
+
+}
+.links{
+    float: left;
+
+}
+.logonav{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+
+}
+.bignav{
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: #36292c;
+    width: 100%;
+    display: flex;
+}
+.logotext{
+    justify-content: space-between;
+    display: flex;
+}
+.button1{
+    float: right;
+    margin-right: 10px;
+
+}
+.navbuttonp{
+margin: 0;
+position: absolute;
+  display: flex;
+  width: 1481px;
+  justify-content: center;
+}
+.navbutton{
+  border: none;
+    background-color: #ff8f45;
+    border-width: 1px;
+    color: rgb(25, 25, 25);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.buttoncontact {
+    border: none;
+    border-color: #ffffff;
+    border-width: 1px;
+    color: rgb(25, 25, 25);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #36292c;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+#title{
+  font-size: 70px;
+}
+.header{
+    width: 1481px;
+    height: 700px;
+    background-color: #4d424d;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header2{
+    justify-content: space-between;
+    margin: auto;
+}
+.headerleft{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: rgb;
+    height: 400px;
+    float: left;
+
+}
+.headerright{
+    display: flex;
+    float: right;
+}
+.orange{
+    color: rgb(242, 127, 56);
+    font-size: 10px;
+ 
+}
+.writer{
+    display: flex;
+    margin-top: 15px;
+}
+.headerinfo{
+  margin-top: 300px;
+}
+.headerwriter{
+    width: 30px;height: 30px;
+    border-radius: 50%;
+    margin-top: 15px;
+  
+    float: left;
+}
+
+.brand{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    justify-content: space-between;
+}
+.ramlogo{
+    width: 500px;height: 500px;
+    border-radius: 50%;
+    margin: auto;
+
+  margin-top: 40px;
+  display: flex;
+}
+.ramlogocontainer{
+
+    width: 700px;height: 700px;
+    background-color: #4d424d;
+    
+}
+
+
+.about{
+    width: 1481px;
+    height: 500px;
+    background-color: #e1dfba;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about2{
+    justify-content: space-between;
+    margin: auto;
+}
+.aboutleft{
+    margin-left: 100px;
+    background-color: rgba(191, 185, 182, 1);
+    max-width: 500px;
+    float: left;
+}
+.aboutright{
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+}
+#aboutband{
+  margin-top: 100px;
+}
+.crewimg{
+    width: 500px;
+}
+
+
+table,td {
+    border:1px solid rgb(25, 25, 25);
+    
+  }
+  .table1{
+    display: flex;
+    background-color: #e1dfba;
+    height: 200px;
+    width: 1481px;
+  }
+  .table2{
+    margin: auto;
+    width: 1100px;
+  }
+  .table3{
+    height: 40px;
+  }
+
+.crew{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(191, 185, 182, 1);
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.crew1{
+    justify-content: space-between;
+    margin: auto;
+}
+.crewleft{
+    background-color: rgba(191, 185, 182, 1);
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+}
+.crewright{
+    display: flex;
+    margin-left: 100px;
+    max-width: 500px;
+    float: left;
+    display: flex;
+}
+.crewimg{
+  width: 599px;
+  height: 337px;
+}
+  
+
+
+
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header2{
+        margin: auto;
+    }
+    .about{
+        margin: auto;
+    }
+    .about2{
+        margin: auto;
+    }
+    .aboutleft{
+        margin: auto;
+    }
+    .aboutright{
+        margin: auto;
+    }
+    table {
+     margin: auto;
+    }
+      .table1{
+        margin: auto;
+
+      }
+      .table2{
+        margin: auto;
+
+      }
+      .table3{
+     margin: auto;
+
+      }
+  }

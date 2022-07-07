@@ -1,0 +1,32 @@
+.form{
+    width: 378px;
+    background-color: rgb(222, 251, 254);
+}
+.inputbox1{
+    width: 337px;
+    margin-bottom: 10px;
+}
+.region{
+    margin-bottom: 10px;
+}
+.city{
+    margin-bottom: 10px;
+}
+.option{
+    width: 170px;
+}
+.email{
+    float: left;
+    width: 170px;
+}
+.phone{
+    float: right;
+    width: 170px;
+}
+.submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
