@@ -1,121 +1,229 @@
-body{
-    margin: auto;
-    background-color: rgba(191, 185, 182, 1);
-    background-size: cover;
+body {
+  margin: auto;
+  background-color: rgba(225, 223, 186, 1);
+  background-size: cover;
 }
 
-.fontwhite{
+.container {
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  max-width: 1400px;
+  margin: auto;
+  background-color: #ddd;
+}
+
+.fontwhite {
   color: #ffffff;
 }
-.navi{
-    justify-content: center;
-    display: flex;
-    width: 1481px;
-}
-.navilogo{
-    justify-content: space-between;
-    display: flex;
-}
-.logoname{
-    float: left;
 
-}
-.links{
-    float: left;
-
-}
-.logonav{
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 10px;
-    float: left;
-
-}
-.bignav{
-    justify-content: space-evenly;
-    overflow: hidden;
-    background-color: #36292c;
-    width: 100%;
-    display: flex;
-}
-.logotext{
-    justify-content: space-between;
-    display: flex;
-}
-.button1{
-    float: right;
-    margin-right: 10px;
-
-}
-.navbuttonp{
-margin: 0;
-position: absolute;
-  display: flex;
-  width: 1481px;
+.navi {
   justify-content: center;
-}
-.navbutton{
-  border: none;
-    background-color: #ff8f45;
-    border-width: 1px;
-    color: #36292c;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-bottom: 50px;
-}
-.buttoncontact {
-    border: none;
-    border-color: #ffffff;
-    border-width: 1px;
-    color: rgb(25, 25, 25);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  .topnav {
-    overflow: hidden;
-    background-color: #36292c;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  .brand{
-    margin-top: 10px;
-    display: flex;
-    margin-left: 10px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  width: 100%;
 }
 
+.navilogo {
+  justify-content: space-between;
+  display: flex;
+}
+
+.logoname {
+  float: left;
+
+}
+
+.links {
+  float: left;
+
+}
+
+.logonav {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10px;
+  float: left;
+
+}
+
+.bignav {
+  justify-content: space-evenly;
+  overflow: hidden;
+  background-color: #36292c;
+  width: 100%;
+  display: flex;
+}
+
+.logotext {
+  justify-content: space-between;
+  display: flex;
+}
+
+.button1 {
+  float: right;
+  margin-right: 10px;
+
+}
+
+
+.navbutton {
+  border: none;
+  background-color: #ff8f45;
+  border-width: 1px;
+  color: #36292c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+
+.buttoncontact {
+  border: none;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: rgb(25, 25, 25);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #36292c;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.brand {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerimg {
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.header {
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+  align-self: center;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+}
+
+.table1 {
+  width: 400px;
+}
+
+.table2 {
+  width: 400px;
+}
+
+td,
+th {
+  border: 4px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.albums {
+  margin: auto;
+  align-self: center;
+  margin-top: 70px;
+  max-width: 1000px;
+}
+
+.albumcontainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+.albumname {
+  color: rgb(92, 32, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.albumimg {
+  margin: auto;
+}
+
+.albumdis {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(92, 32, 0);
+}
+
+.navbuttonp {
+  align-items: center;
+  margin: auto;
+  width: 2000px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navbutton {
+  border: none;
+  background-color: #ff8f45;
+  border-width: 1px;
+  color: rgb(25, 25, 25);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.orange {
+  color: rgb(242, 127, 56);
+  font-size: 10px;
+}

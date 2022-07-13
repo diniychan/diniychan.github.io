@@ -1,93 +1,365 @@
-body{
+#container {
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    max-width: 1400px;
+    margin: auto;
+}
+
+body {
     margin: auto;
     background-color: #e1dfba;
-    background-size: cover;
 }
 
-.fontwhite{
-  color: #ffffff;
+.discrip{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
 }
-.navi{
+
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #36292c;
+}
+
+.intro1 {
+    width: 50%;
+    color: #ffffff;
+}
+.intro1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+.intro1 p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro2 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.story {
+    height: 500px;
+    background-color: #ddd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic1 img {
+    width: 100%;
+}
+.crew img {
+    width: 505px;
+    height: 337px;
+    border-style: outset;
+}
+
+.content {
+    width: 40%;
+    margin-left: 10px;
+    background-color: #ddd;
+}
+
+.story2 img {
+    width: 100%;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    color: #414840;
+    margin-top: 20px;
+}
+
+.business1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+}
+
+.business1 h1 {
+    margin-bottom: 0px;
+}
+
+.business2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description {
+    width: 37%;
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c1 {
+    display: flex;
+    width: 630px;
+    border-bottom: 2px solid rgb(183, 181, 181);
+    padding-bottom: 8px;
+}
+
+.c1 img {
+    width: 200px;
+    height: 151px;
+}
+
+.ctext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.ctext h3 {
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+/* tablet screen size */
+@media screen and (max-width: 700px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 90px;
+    }
+
+    .menu1 {
+        flex-direction: column;
+    }
+
+    .menu1 a:not(:nth-child(2)) {
+        display: none;
+    }
+
+    .menu1 a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu1.responsive a {
+        display: block;
+    }
+
+    .introduction{
+        flex-direction: column;
+    }
+
+    .intro1{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    .story {
+        height: 1100px;
+        margin: auto;
+    }
+
+    .story1 {
+        flex-direction: column;
+    }
+
+    .story1 img{
+        width: 100%;
+    }
+
+    .content {
+        width: 70%;
+        margin-top: 25px;
+    }
+
+    .story2{
+        margin-top: 50px;
+    }
+
+    .story2 img{
+        width:100%;
+    }
+
+    .business2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description{
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .countries{
+        margin-top: 20px;
+    }
+
+    .c1{
+        width: 500px;
+        padding-top: 5px;
+    }
+
+    .c1 img{
+        width: 190px;
+    }
+
+    .btn{
+        right: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.orange {
+    color: rgb(242, 127, 56);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+.navi {
     justify-content: center;
     display: flex;
-    width: 1481px;
-}
-.navilogo{
+    width: 100%;
+  }
+  
+  .navilogo {
     justify-content: space-between;
     display: flex;
-}
-.logoname{
+  }
+  
+  .logoname {
     float: left;
-
-}
-.links{
+  
+  }
+  
+  .links {
     float: left;
-
-}
-.logonav{
+  
+  }
+  
+  .logonav {
     width: 46px;
     height: 46px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: 10px;
     float: left;
-
-}
-.bignav{
+  
+  }
+  
+  .bignav {
     justify-content: space-evenly;
     overflow: hidden;
     background-color: #36292c;
     width: 100%;
     display: flex;
-}
-.logotext{
-    justify-content: space-between;
-    display: flex;
-}
-.button1{
-    float: right;
-    margin-right: 10px;
-
-}
-.navbuttonp{
-margin: 0;
-position: absolute;
-  display: flex;
-  width: 1481px;
-  justify-content: center;
-}
-.navbutton{
-  border: none;
-    background-color: #ff8f45;
-    border-width: 1px;
-    color: rgb(25, 25, 25);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-bottom: 50px;
-}
-.buttoncontact {
-    border: none;
-    border-color: #ffffff;
-    border-width: 1px;
-    color: rgb(25, 25, 25);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
   }
-  .topnav {
-    overflow: hidden;
-    background-color: #36292c;
+.logo{
+width: 500px;
+}  
+.pfp{
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 100px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
   }
   
+  .table1 {
+    width: 400px;
+  }
+  
+  .table2 {
+    width: 400px;
+  }
+  td,
+th {
+  border: 4px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+.navbuttonp {
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.navbutton {
+  border: none;
+  background-color: #ff8f45;
+  border-width: 1px;
+  color: rgb(25, 25, 25);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.topnav{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.brand{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #36292c;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
@@ -98,16 +370,15 @@ position: absolute;
     font-size: 17px;
   }
   
+  /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #36292c;
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+
   
+  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   }
@@ -115,177 +386,16 @@ position: absolute;
 
 
 
-#title{
-  font-size: 70px;
-}
-.header{
-    width: 1481px;
-    height: 700px;
-    background-color: #4d424d;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.header2{
-    justify-content: space-between;
-    margin: auto;
-}
-.headerleft{
-    margin-top: 100px;
-    margin-left: 100px;
-    background-color: rgb;
-    height: 400px;
-    float: left;
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
 
-}
-.headerright{
-    display: flex;
-    float: right;
-}
-.orange{
-    color: rgb(242, 127, 56);
-    font-size: 10px;
- 
-}
-.writer{
-    display: flex;
-    margin-top: 15px;
-}
-.headerinfo{
-  margin-top: 300px;
-}
-.headerwriter{
-    width: 30px;height: 30px;
-    border-radius: 50%;
-    margin-top: 15px;
-  
-    float: left;
-}
-
-.brand{
-    margin-top: 10px;
-    display: flex;
-    margin-left: 10px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.menu{
-    justify-content: space-between;
-}
-.ramlogo{
-    width: 500px;height: 500px;
-    border-radius: 50%;
-    margin: auto;
-
-  margin-top: 40px;
-  display: flex;
-}
-.ramlogocontainer{
-
-    width: 700px;height: 700px;
-    background-color: #4d424d;
-    
-}
-
-
-.about{
-    width: 1481px;
-    height: 500px;
-    background-color: #e1dfba;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.about2{
-    justify-content: space-between;
-    margin: auto;
-}
-.aboutleft{
-    margin-left: 100px;
-    background-color: rgba(191, 185, 182, 1);
-    max-width: 500px;
-    float: left;
-}
-.aboutright{
-    display: flex;
-    margin: auto;
-    max-width: 500px;
-}
-#aboutband{
-  margin-top: 100px;
-}
-.crewimg{
-    width: 500px;
-}
-
-
-table,td {
-    border:1px solid rgb(25, 25, 25);
-    
-  }
-  .table1{
-    display: flex;
-    background-color: #e1dfba;
-    height: 200px;
-    width: 1481px;
-  }
-  .table2{
-    margin: auto;
-    width: 1100px;
-  }
-  .table3{
-    height: 40px;
-  }
-
-.crew{
-    width: 100%;
-    height: 500px;
-    background-color: rgba(191, 185, 182, 1);
-
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.crew1{
-    justify-content: space-between;
-    margin: auto;
-}
-.crewleft{
-    background-color: rgba(191, 185, 182, 1);
-    max-width: 500px;
-    margin: auto;
-    display: flex;
-}
-.crewright{
-    display: flex;
-    margin-left: 100px;
-    max-width: 500px;
-    float: left;
-    display: flex;
-}
-.crewimg{
-  width: 599px;
-  height: 337px;
-}
-  
-
-
-
-
-
-
-  
-  @media screen and (max-width: 600px) {
-    .topnav a {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
   }
   
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
+    .topnav.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
@@ -295,34 +405,4 @@ table,td {
       display: block;
       text-align: left;
     }
-    .header2{
-        margin: auto;
-    }
-    .about{
-        margin: auto;
-    }
-    .about2{
-        margin: auto;
-    }
-    .aboutleft{
-        margin: auto;
-    }
-    .aboutright{
-        margin: auto;
-    }
-    table {
-     margin: auto;
-    }
-      .table1{
-        margin: auto;
-
-      }
-      .table2{
-        margin: auto;
-
-      }
-      .table3{
-     margin: auto;
-
-      }
   }
