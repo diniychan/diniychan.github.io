@@ -1,7 +1,7 @@
 #container {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
 }
 
@@ -10,12 +10,12 @@ body {
     background-color: #e1dfba;
 }
 
-.discrip{
+.discrip {
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
 }
 
-.introduction {
+.intro {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -26,11 +26,13 @@ body {
     width: 50%;
     color: #ffffff;
 }
-.intro1 h1{
+
+.intro1 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
 }
-.intro1 p{
+
+.intro1 p {
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -41,7 +43,7 @@ body {
     border-radius: 50%;
 }
 
-.story {
+.about {
     height: 500px;
     background-color: #ddd;
     color: white;
@@ -49,17 +51,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 7px;
 }
 
-.story1 {
+.about1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .pic1 img {
-    width: 100%;
+    width: 600px;
 }
+
 .crew img {
     width: 505px;
     height: 337px;
@@ -72,31 +76,27 @@ body {
     background-color: #ddd;
 }
 
-.story2 img {
+.about2 img {
     width: 100%;
 }
 
-.business {
+.tables {
     display: flex;
     flex-direction: column;
     color: #414840;
     margin-top: 20px;
 }
 
-.business1 {
+.tables1 {
     display: flex;
     flex-direction: column;
     background-color: #ddd;
 }
 
-.business1 h1 {
+.tables1 h1 {
     margin-bottom: 0px;
 }
 
-.business2 {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .description {
     width: 37%;
@@ -133,53 +133,26 @@ body {
 
 /* tablet screen size */
 @media screen and (max-width: 700px) {
-    .overlay a {
-        font-size: 20px
-    }
 
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 90px;
-    }
-
-    .menu1 {
+    .intro {
         flex-direction: column;
     }
 
-    .menu1 a:not(:nth-child(2)) {
-        display: none;
-    }
-
-    .menu1 a.icon {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-
-    .menu1.responsive a {
-        display: block;
-    }
-
-    .introduction{
-        flex-direction: column;
-    }
-
-    .intro1{
+    .intro1 {
         width: 75%;
         margin-bottom: 20px;
     }
 
-    .story {
+    .about {
         height: 1100px;
         margin: auto;
     }
 
-    .story1 {
+    .about1 {
         flex-direction: column;
     }
 
-    .story1 img{
+    .about1 img {
         width: 100%;
     }
 
@@ -188,39 +161,35 @@ body {
         margin-top: 25px;
     }
 
-    .story2{
+    .about2 {
         margin-top: 50px;
     }
 
-    .story2 img{
-        width:100%;
+    .about2 img {
+        width: 100%;
     }
 
-    .business2{
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .description{
+    .description {
         align-items: center;
         width: 90%;
         margin: auto;
     }
 
-    .countries{
+    .countries {
         margin-top: 20px;
     }
 
-    .c1{
+    .c1 {
         width: 500px;
         padding-top: 5px;
     }
 
-    .c1 img{
+    .c1 img {
         width: 190px;
     }
 
-    .btn{
+    .btn {
         right: 30px;
     }
 }
@@ -239,55 +208,59 @@ body {
     color: rgb(242, 127, 56);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-  
-  }
+
+}
+
 .navi {
     justify-content: center;
     display: flex;
     width: 100%;
-  }
-  
-  .navilogo {
+}
+
+.navilogo {
     justify-content: space-between;
     display: flex;
-  }
-  
-  .logoname {
+}
+
+.logoname {
     float: left;
-  
-  }
-  
-  .links {
+
+}
+
+.links {
     float: left;
-  
-  }
-  
-  .logonav {
+
+}
+
+.logonav {
     width: 46px;
     height: 46px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: 10px;
     float: left;
-  
-  }
-  
-  .bignav {
+
+}
+
+.bignav {
     justify-content: space-evenly;
     overflow: hidden;
     background-color: #36292c;
     width: 100%;
     display: flex;
-  }
-.logo{
-width: 500px;
-}  
-.pfp{
+}
+
+.logo {
+    width: 500px;
+}
+
+.pfp {
     width: 30px;
     border-radius: 50%;
     display: flex;
     margin-top: 100px;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -296,48 +269,51 @@ table {
     margin-top: 20px;
     margin-bottom: 30px;
     background-color: #f2f2f2;
-  }
-  
-  .table1 {
+}
+
+.table1 {
     width: 400px;
-  }
-  
-  .table2 {
+}
+
+.table2 {
     width: 400px;
-  }
-  td,
+}
+
+td,
 th {
-  border: 4px solid #000000;
-  text-align: left;
-  padding: 8px;
+    border: 4px solid #000000;
+    text-align: left;
+    padding: 8px;
 }
 
 .navbuttonp {
 
-  display: flex;
+    display: flex;
 
-  justify-content: center;
+    justify-content: center;
 }
 
 .navbutton {
-  border: none;
-  background-color: #ff8f45;
-  border-width: 1px;
-  color: rgb(25, 25, 25);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-bottom: 50px;
+    border: none;
+
+    border-width: 1px;
+    color: rgb(25, 25, 25);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
-.topnav{
+
+.topnav {
     color: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.links{
+
+.links {
     color: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -345,10 +321,13 @@ th {
     margin-top: 20px;
     margin-left: 20px;
 }
-.brand{
+
+.brand {
     color: #f2f2f2;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 
@@ -357,10 +336,10 @@ th {
 .topnav {
     background-color: #36292c;
     overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -368,41 +347,239 @@ th {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
     background-color: #36292c;
     color: black;
-  }
-  
+}
 
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
     display: none;
-  }
+}
 
 
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
 
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
+
     .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-  }
+}
+
+a:link {
+    background-color: #ff812c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+
+#icons {
+    margin-left: 0px;
+    color: #FFFFFF;
+    text-transform: none;
+    text-decoration: none;
+    width: 400px;
+    font-size: 14px;
+}
+
+.fa-stack-1x {
+    color: white;
+}
+
+.icon {
+    color: #EF6D58;
+    padding: 5px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h2 {
+    vertical-align: center;
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #36292c;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: white;
+        background-color: #222;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #444;
+    }
+}
+
+.logoimg {
+    width: 60px;
+    margin-top: 30px;
+
+}
+
+.navbutton2 {
+    border: none;
+    border-width: 1px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #36292c;
+}
