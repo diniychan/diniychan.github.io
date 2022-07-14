@@ -135,7 +135,7 @@ body {
 }
 
 .headersimg {
-  width: 700px;
+  max-width: 700px;
   margin: auto;
   margin-top: 30px;
 }
@@ -181,7 +181,8 @@ th {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 1000px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .albumname {
@@ -192,6 +193,7 @@ th {
 
 .albumimg {
   margin: auto;
+  width: 400px;
 }
 
 .albumdis {
@@ -335,6 +337,12 @@ th {
       float: none;
       display: block;
       text-align: left;
+  }
+  .headersimg {
+    width: 300px;
+  }
+  .albumimg {
+    width: 300px;
   }
 }
 
