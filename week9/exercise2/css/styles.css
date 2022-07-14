@@ -1,0 +1,78 @@
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1200px;
+  }
+
+.purple{
+    background-color: rgb(172, 72, 215);
+    color: rgb(90, 0, 129);
+    border: 3px solid rgb(90, 0, 129);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+.lblue{
+    background-color: rgb(174, 214, 249);
+    color: rgb(0, 86, 162);
+    border: 3px solid rgb(0, 86, 162);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+.dblue{
+    background-color: rgb(70, 70, 254);
+    color: rgb(0, 0, 122);
+    border: 3px solid rgb(0, 0, 122);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.dgreen{
+    background-color: rgb(40, 114, 40);
+    color: rgb(0, 44, 0);
+    border: 3px solid rgb(0, 44, 0);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.lgreen{
+    background-color: rgb(118, 231, 118);
+    color: rgb(0, 110, 0);
+    border: 3px solid rgb(0, 110, 0);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.sblue{
+    background-color: rgb(83, 214, 250);
+    color: rgb(0, 76, 97);
+    border: 3px solid rgb(0, 76, 97);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.red{
+    background-color: rgb(248, 84, 84);
+    color: rgb(112, 0, 0);
+    border: 3px solid rgb(112, 0, 0);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.default{
+    background-color: rgb(200, 248, 255);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+.default2{
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+  
