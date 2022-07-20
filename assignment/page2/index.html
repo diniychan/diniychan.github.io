@@ -1,241 +1,126 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-    <title>Page 2</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initil-scale=1.0">
+    <title>Timeline</title>
+    <link rel="icon" type="image/x-icon" href="img/pngegg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div >
-            <section class="top-nav">
-                <div>
-                  <img class="logoimg" src="img//6Tr5e7M8c.png">
-                  <h1 class="brand">Thunder-Wire</h1>
-                </div>
-
-                <input id="menu-toggle" type="checkbox" />
-                <label class="menu-button-container" for="menu-toggle">
-                <div class="menu-button"></div>
-              </label>
-                <ul class="menu">
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Featured</a></li>
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Albums</a></li>
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Contacts</a></li>
-                </ul>
-              </section>
-            
+    <div id="container">
+        <div class="logo1">
+            <a href="../page1/index.html"><img class="logo1img" src="img/metallicalogo.png"></a>
         </div>
-        <div>
-            <div class="headers">
-                <img class="headersimg" src="img/37i9dQZF1DZ06evO3RbzfW-large.jpg">
 
-            </div>
+        <div class="menu1">
+            <a href="../page1/index.html">Members</a>
+            <a href="../page2/index.html" class="active">Timeline</a>
+            <a href="../page3/index.html">Albums</a>
+            <a href="../page4/index.html">Featuring</a>
+            <a href="../page5/index.html">Contacts</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
         </div>
- 
 
-        <table>
-            <tr>
-                <th class="table1">
-                    <h1>8</h1><br>Studio Albums
-                </th>
-                <th class="table2">
-                    <h1>121</h1><br>Tracks
-                </th>
-            </tr>
-        </table>
 
-        <div class="albums">
-            <div class="orange">
-                <h2>Album</h2>
-            </div>
-            <div>
-                <h1 class="albumname">Rammstein</h1>
-            </div>
-            <div class="albumcontainer">
-                <div>
-                    <img class="albumimg" src="img/Rammstein_-_Rammstein.png">
-                </div>
-            </div>
-            <div>
-                <p class="albumdis">The untitled seventh studio album by German Neue Deutsche Härte band Rammstein,
-                    titled Rammstein on digital platforms and on CD-Text enabled devices, was released on 17 May 2019
-                    through Universal Music. Their first studio album in ten years, it is their first not to be produced
-                    by Jacob Hellner; it was instead produced by Emigrate guitarist Olsen Involtini, who also serves as
-                    Rammstein's live sound engineer.<br><br>
-                    Track listing<br><br>
-                    No. Title Length<br>
-                    1. "Deutschland" ("Germany") 5:23<br>
-                    2. "Radio" 4:37<br>
-                    3. "Zeig dich" ("Show Yourself") 4:15<br>
-                    4. "Ausländer" ("Foreigner") 3:51<br>
-                    5. "Sex" 3:56<br>
-                    6. "Puppe" ("Doll") 4:33<br>
-                    7. "Was ich liebe" ("What I Love") 4:29<br>
-                    8. "Diamant" ("Diamond") 2:34<br>
-                    9. "Weit weg" ("Far Away") 4:20<br>
-                    10. "Tattoo" 4:11<br>
-                    11. "Hallomann" ("Kind Man") 4:11<br>
-                    Total length: 46:20<br>
-                </p>
+
+
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>MENU</h1>
+                <a href="../page1/index.html">Members</a>
+                <a href="../page2/index.html">Timeline</a>
+                <a href="../page3/index.html">Albums</a>
+                <a href="../page4/index.html">Featuring</a>
+                <a href="../page5/index.html">Contacts</a>
             </div>
         </div>
 
-        <div class="albums">
-            <div class="orange">
-                <h2>Album</h2>
+        <div class="time">
+            <div class="timeheader">
+                <h2>Timeline</h2>
             </div>
-            <div>
-                <h1 class="albumname">Mutter</h1>
-            </div>
-            <div class="albumcontainer">
-                <div>
-                    <img class="albumimg" src="img/Mutter.jpg">
+            <div class="timebox">
+                <div class="box">
+                    <img src="img/1.png">
+                    <h2>Metallica Forms (1981)</h2>
+                </div>
+                <div class="box">
+                    <img src="img/2.png">
+                    <h2>Kirk Hammett Joins Metallica (1983)
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/3.png">
+                    <h2>Jason Newsted Joins (1986)
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/4.png">
+                    <h2>Metallica Win Their First Few Grammys (1990-1992)
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/5.png">
+                    <h2>Jason Newsted Leaves Metallica
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/6.png">
+                    <h2>Robert Trujillo Joins Metallica (2003)
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/7.png">
+                    <h2>Guitar Hero: Metallica Released (2009)
+                    </h2>
+
+                </div>
+                <div class="box">
+                    <img src="img/8.png">
+                    <h2>Metallica Celebrate 30th Anniversary (2011)
+                    </h2>
+
                 </div>
             </div>
-            <div>
-                <p class="albumdis">Mutter (German pronunciation: [ˈmʊtɐ]; English: "Mother") is the third studio album
-                    by German Neue Deutsche Härte band Rammstein. It was released on 2 April 2001 through Motor and
-                    Universal Music. The album's cover image is a photograph of a dead fetus, which was taken by Daniel
-                    & Geo Fuchs. The album has yielded six singles which, to date, are the most released from any
-                    Rammstein album.<br><br>
-                    Track listing<br><br>
-                    No. Title Length<br>
-                    1. "Mein Herz brennt" ("My Heart Burns") 4:39<br>
-                    2. "Links 2 3 4" ("Left 2 3 4") 3:36<br>
-                    3. "Sonne" ("Sun") 4:32<br>
-                    4. "Ich will" ("I Want") 3:37<br>
-                    5. "Feuer frei!" ("Open Fire!") 3:11<br>
-                    6. "Mutter" ("Mother") 4:32<br>
-                    7. "Spieluhr" ("Music Box") 4:46<br>
-                    8. "Zwitter" ("Hermaphrodite") 4:17<br>
-                    9. "Rein raus" ("In Out") 3:09<br>
-                    10. "Adios" ("Goodbye") 3:49<br>
-                    11. "Nebel" ("Fog") 4:54<br>
-                    Total length: 45:02<br>
-                </p>
-            </div>
+           
         </div>
 
-        <div class="albums">
-            <div class="orange">
-                <h2>Album</h2>
-            </div>
-            <div>
-                <h1 class="albumname">Zeit</h1>
-            </div>
-            <div class="albumcontainer">
-                <div>
-                    <img class="albumimg" src="img/Rammstein_-_Zeit.png">
-                </div>
-            </div>
-            <div>
-                <p class="albumdis">Zeit (English: Time) is the eighth studio album by German Neue Deutsche Härte band
-                    Rammstein, released on 29 April 2022 through Universal Music. Produced by the band with Olsen
-                    Involtini, the album was unplanned and recorded as a result of the band's tour being postponed due
-                    to the COVID-19 pandemic. The lockdowns enforced due to the pandemic spurred the band's creativity,
-                    resulting in spontaneous writing and recording sessions. Rammstein recorded the album in late 2020
-                    and early 2021 at La Fabrique Studios in Saint-Rémy-de-Provence, France, where they recorded their
-                    previous album. The album's title track was released as the lead single on 10 March 2022.<br><br>
+        <div class="footer">
 
-                    Track listing<br><br>
-                    No. Title Length<br>
-                    1. "Armee der Tristen" ("Army of the Dreary Ones") 3:25<br>
-                    2. "Zeit" ("Time") 5:21<br>
-                    3. "Schwarz" ("Black") 4:18<br>
-                    4. "Giftig" ("Toxic") 3:08<br>
-                    5. "Zick Zack" ("Snip Snap") 4:04<br>
-                    6. "OK"  4:03<br>
-                    7. "Meine Tränen" ("My Tears") 3:57<br>
-                    8. "Angst" ("Fear") 3:44<br>
-                    9. "Dicke Titten" 3:38<br>
-                    10. "Lügen" ("Lies") 3:49<br>
-                    11. "Adieu" ("Farewell") 4:39<br>
-                    Total length: 44:06<br>
-                </p>
+            <div class="contact">
+                <a href="https://github.com/diniychan" target="_blank"><img src="img/github-logo.png"></a>
+                <a href="tel:+60187610020" target="_blank"><img src="img/WhatsApp.svg.png"></a>
+                <a href="mailto:diniy1129@e.newera.edu.my" target="_blank"><img src="img/pngwing.com.png"></a>
             </div>
         </div>
-
-        <div class="albums">
-            <div class="orange">
-                <h2>Album</h2>
-            </div>
-            <div>
-                <h1 class="albumname">Reise,Reise</h1>
-            </div>
-            <div class="albumcontainer">
-                <div>
-                    <img class="albumimg" src="img/ReiseReise.jpg">
-                </div>
-            </div>
-            <div>
-                <p class="albumdis">Reise, Reise (German pronunciation: [ˈʁaɪzə ˈʁaɪzə]; a German military wake-up call,
-                    literally "(a)rise, (a)rise")[a] is the fourth studio album by Neue Deutsche Härte band Rammstein.
-                    It was released on 27 September 2004 through Universal Music in Germany and followed shortly by its
-                    release across Europe. It was later released in North America through Republic Records on 16
-                    November 2004. Recorded in a span of two years at El Cortijo Studios in Málaga, Spain, the album was
-                    produced by the band themselves along with Swedish record producer Jacob Hellner.<br><br>
-
-                    Track listing<br><br>
-                    No. Title Length<br>
-                    1. "Reise, Reise" ("Rise, Rise") 4:11<br>
-                    2. "Mein Teil" ("My Part") 4:32<br>
-                    3. "Dalai Lama" 5:38<br>
-                    4. "Keine Lust" ("No Desire") 3:43<br>
-                    5. "Los" ("'Less") 4:24<br>
-                    6. "Amerika" ("America") 3:47<br>
-                    7. "Moskau" ("Moscow", feat. Viktoria Fersh) 4:16<br>
-                    8. "Morgenstern" ("Morning Star") 4:00<br>
-                    9. "Stein um Stein" ("Stone by Stone") 3:52<br>
-                    10. "Ohne dich" ("Without You") 4:31<br>
-                    11. "Amour" ("Love") 4:51<br>
-                    Total length: 47:45<br>
-                </p>
-            </div>
-        </div>
-
-        <div class="albums">
-            <div class="orange">
-                <h2>Album</h2>
-            </div>
-            <div>
-                <h1 class="albumname">Rosenrot</h1>
-            </div>
-            <div class="albumcontainer">
-                <div>
-                    <img class="albumimg" src="img/Reisereisejapan.jpg">
-                </div>
-            </div>
-            <div>
-                <p class="albumdis">Rosenrot (German pronunciation: [ˈʁoːzn̩ˌʁoːt], "Rose-Red") is the fifth studio
-                    album by German Neue Deutsche Härte band Rammstein, released on 28 October 2005. The album includes
-                    six songs artistically omitted from Reise, Reise. The album's first title was Reise, Reise Volume
-                    Two, but on 18 August 2005 the album was announced as Rosenrot.[10] The cover art is nearly
-                    identical to the Japanese import of Reise, Reise. The image is a slightly altered photograph of the
-                    icebreaker USS Atka, taken on 13 March 1960 at McMurdo Station, Ross Ice Shelf, Antarctica.<br><br>
-
-                    Track listing<br><br>
-                    No. Title Length<br>
-                    1. "Benzin" ("Gasoline") 3:46<br>
-                    2. "Mann gegen Mann" ("Man Against Man") 3:50<br>
-                    3. "Rosenrot" ("Rose-red") 3:54<br>
-                    4. "Spring" ("Jump") 5:24<br>
-                    5. "Wo bist du" ("Where Are You") 3:55<br>
-                    6. "Stirb nicht vor mir (Don’t Die Before I Do)" (featuring Sharleen Spiteri and Bobo) 4:05<br>
-                    7. "Zerstören" ("Destroy") 5:28<br>
-                    8. "Hilf mir" ("Help Me") 4:43<br>
-                    9. "Te quiero puta!" (featuring Carmen Zapata; Sp.: "I Love You, Whore!") 3:55<br>
-                    10. "Feuer und Wasser" ("Fire and Water") 5:17<br>
-                    11. "Ein Lied" ("A Song") 3:43<br>
-                    Total length: 48:00
-                </p>
-            </div>
+        <div class="footer1">
+            <p>diniychan.github.io</p>
         </div>
     </div>
-    <div class="navbuttonp">
-        <div>
-            <button <a href="../../assignment/page2/index.html" class="navbutton">Albums</button>
-        </div>
-    </div>
+    <script>
+
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
 </body>
+
+</html>

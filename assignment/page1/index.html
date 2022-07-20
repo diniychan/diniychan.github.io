@@ -1,200 +1,123 @@
 <!DOCTYPE html>
 <html>
-
+ 
 <head>
-    <title>Page1</title>
+    <title>Metallica</title>
+    <link rel="icon" type="image/x-icon" href="img/pngegg.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf88cbf2c.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div id="container">
-        <div >
-            <section class="top-nav">
-                <div>
-                  <img class="logoimg" src="img//6Tr5e7M8c.png">
-                  <h1 class="brand">Thunder-Wire</h1>
-                </div>
-
-                <input id="menu-toggle" type="checkbox" />
-                <label class="menu-button-container" for="menu-toggle">
-                <div class="menu-button"></div>
-              </label>
-                <ul class="menu">
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Featured</a></li>
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Albums</a></li>
-                  <li><a href="../page2/index.html" target="_blank" class="navbutton2">Contacts</a></li>
-                </ul>
-              </section>
-            
+        <div class="logo1">
+            <a href="../page1/index.html"><img class="logo1img" src="img/metallicalogo.png"></a>
         </div>
 
-        <div class="intro">
+        <div class="menu1">
+            <a href="../page1/index.html" class="active">Members</a>
+            <a href="../page2/index.html">Gallery</a>
+            <a href="../page3/index.html">Albums</a>
+            <a href="../page4/index.html">Featuring</a>
+            <a href="../page5/index.html">Contacts</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="icon" class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+
+
+
+
+        <div id="menu2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <h1>MENU</h1>
+                <a href="../page1/index.html">Members</a>
+                <a href="../page2/index.html">Gallery</a>
+                <a href="../page3/index.html">Albums</a>
+                <a href="../page4/index.html">Featuring</a>
+                <a href="../page5/index.html">Contacts</a>
+            </div>
+        </div>
+
+        <div class="introduction">
             <div class="intro1">
-                <h1>RAMMSTEIN</h1>
-                <p>This article introduces the German industrial metal band rammstein.
+                <img class="introimg"
+                    src="img/Metallica_Live_at_The_O2,_London,_England,_22_October_2017_(cropped).jpg">
+            </div>
+            <div class="intro1">
+                <h1>Metallica</h1>
+                <p>Metallica is an American heavy metal band. The band was formed in 1981 in Los Angeles by
+                    vocalist/guitarist James Hetfield and drummer Lars Ulrich and has been based in San Francisco for
+                    most of its career. The band's fast tempos, instrumentals and aggressive musicianship made
+                    them one of the founding "big four" bands of thrash metal, alongside Megadeth, Anthrax, and Slayer.
+
                 </p>
-                <a href="../page2/index.html" target="_blank" class="navbutton">Contact</a>
-                <a href="../page2/index.html" target="_blank" class="navbutton">Albums</a>
-                <img class="pfp" src="img/WhatsApp Image 2022-06-06 at 5.21.55 PM.jpeg">
-                <p>Written by Diniy Chan</p>
             </div>
-            <div class="intro2">
-                <img class="logo" src="img/Rammstein_wallpaper_logo.png">
-            </div>
-        </div>
-        <div class="about">
-            <div class="about1">
-                <div class="pic1">
-                    <img class="aboutpic" src="img/rammstein_olaf_heine.jpg">
-                </div>
-                <div class="content">
-                    <h1 class="discrip">RAMMSTEIN</h1>
-                    <h2 class="orange">About:</h2>
-                    <p class="discrip">Rammstein is a German Neue Deutsche Härte band formed in Berlin in 1994. The band's
-                        lineup—consisting of lead vocalist Till Lindemann, lead guitarist Richard Kruspe, rhythm
-                        guitarist Paul Landers, bassist Oliver Riedel, drummer Christoph Schneider, and keyboardist
-                        Christian "Flake" Lorenz ,has remained unchanged throughout their history, along with their
-                        approach to songwriting, which consists of Lindemann writing and singing the lyrics over
-                        instrumental pieces the rest of the band have completed beforehand. Prior to their
-                        formation,
-                        some members were associated with the punk rock acts Feeling B and First Arsch.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="tables">
-            <div class="1">
-                <table>
-                    <tr>
-                        <th class="table1">
-                            <h1>28</h1><br>Years of Career
-                        </th>
-                        <th class="table2">
-                            <h1>6</h1><br>Members
-                        </th>
-                        <th class="table2">
-                            <h1>25,000,000</h1><br>Records Sold
-                        </th>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic" src="img/A-506668-1437938878-9613.jpg">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Till Lindemann</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Till Lindemann, born 4 January 1963, is a German singer, songwriter and poet. He is best
-                            known as the lead vocalist and lyricist of Neue Deutsche Härte band Rammstein and solo
-                            project Lindemann. Lindemann has been listed among the "50 Greatest Metal Frontmen of All
-                            Time" by Roadrunner Records. He has appeared in minor roles in films and has also published
-                            three books of poetry. He has presented some of his original poems and scripts to galleries.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic" src="img/186525594_112305907693569_2631657629574900241_n.jpg">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Richard Kruspe</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Richard Zven Kruspe ,born 24 June 1967 in Wittenberge as Sven Kruspe, is lead guitar player
-                            and background singer for Rammstein, as well as singer and guitar player for Emigratel. He
-                            is also the co-founder for Rammstein along with Lindemann.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic" src="img/A-429933-1651866831-1387.jpg">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Paul Landers</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Paul Landers (born Heiko Paul Hiersche; 9 December 1964)[1] is a German musician, notable as
-                            the guitarist for the Neue Deutsche Härte band Rammstein, and the punk rock band Feeling B.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic" src="img/Eg-uiIUXcAAGX_x.jfif">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Oliver Riedel</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Oliver "Ollie" Riedel (born 11 April 1971)[1] is a German musician, best known as the bassist
-                            for German Neue Deutsche Härte band Rammstein.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic"
-                            src="img/Opera Snapshot_2022-07-06_221004_rwNC8TZZpZ5WqfVpX7Z59g-970-80.jpg.webp.png">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Christoph Schneider</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Christoph "Doom" Schneider (born 11 May 1966) is a German musician, best known as the drummer
-                            of the Neue Deutsche Härte band Rammstein.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="about1">
-                    <div class="crew">
-                        <img class="aboutpic" src="img/1723500089-1008310-3r70.jpg">
-                    </div>
-                    <div class="content">
-                        <h1 class="discrip">Christian "Flake" Lorenz</h1>
-                        <h2 class="orange">About:</h2>
-                        <p class="discrip">Christian "Flake" Lorenz born 16 November 1966 is a German musician and keyboard player for
-                            Neue Deutsche Härte band Rammstein, as well as the main composer along with guitarist
-                            Richard Kruspe. He was also a member of the East German punk band Feeling B.</p>
-                    </div>
-                </div>
-            </div>
-
 
         </div>
-        <div>
-            <div class="navbuttonp">
-                <a href="../page2/index.html" target="_blank" class="navbutton">Albums</a>
+        <div class="members">
+            <div class="mat1">
+                <h2>Members Of Metallica</h2>
             </div>
+            <div class="mat2">
+                <div class="box">
+                    <img src="img/James_Hetfield_2017.jpg">
+                    <h3>James Hetfield</h3>
+                    <p><span style="font-size:20px;"><b>Position- </b></span> lead vocals, rhythm guitar</p>
+                    <p><span style="font-size:20px;"><b>Born- </b></span>August 3, 1963</p>
+                    <p><span style="font-size:20px;"><b>Formerly member- </b></span>Spastik Children, Leather Charm</p>
+                </div>
+                <div class="box">
+                    <img src="img/Kirk_Hammett_2017.jpg">
+                    <h3>Kirk Hammett</h3>
+                    <p><span style="font-size:20px;"><b>Position- </b></span> lead guitar, backing vocals</p>
+                    <p><span style="font-size:20px;"><b>Born- </b></span>November 18, 1962</p>
+                    <p><span style="font-size:20px;"><b>Formerly member- </b></span>Exodus, Spastik Children</p>
+                </div>
+                <div class="box">
+                    <img src="img/Robert_Trujillo_2017.jpg">
+                    <h3>Robert Trujillo</h3>
+                    <p><span style="font-size:20px;"><b>Position- </b></span> bass, backing vocals</p>
+                    <p><span style="font-size:20px;"><b>Born- </b></span>October 23, 1964 </p>
+                    <p><span style="font-size:20px;"><b>Formerly member- </b></span>Suicidal Tendencies, Ozzy Osbourne,
+                        Jerry Cantrell, Medication</p>
+                </div>
+                <div class="box">
+                    <img src="img/Lars_Ulrich_2017.jpg">
+                    <h3>Lars Ulrich</h3>
+                    <p><span style="font-size:20px;"><b>Position- </b></span> lead vocals, rhythm guitar</p>
+                    <p><span style="font-size:20px;"><b>Born- </b></span>26 December 1963 </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+
+            <div class="contact">
+                <a href="https://github.com/diniychan" target="_blank"><img src="img/github-logo.png"></a>
+                <a href="tel:+60187610020" target="_blank"><img src="img/WhatsApp.svg.png"></a>
+                <a href="mailto:diniy1129@e.newera.edu.my" target="_blank"><img src="img/pngwing.com.png"></a>
+            </div>
+        </div>
+        <div class="footer1">
+            <p>diniychan.github.io</p>
         </div>
     </div>
-<script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+    <script>
+
+        function openNav() {
+            document.getElementById("icon").style.display = "none";
+            document.getElementById("menu2").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("icon").style.display = "block";
+            document.getElementById("menu2").style.width = "0%";
+        }
+    </script>
 </body>
 
 </html>
