@@ -170,6 +170,10 @@
     height: 392px;
     width: 294px;
 }
+.contributors{
+    margin-top: 20px;
+}
+
 .structureimg{
     display: flex;
     justify-content: center;
@@ -182,12 +186,6 @@
     justify-content: center;
     display: flex;
 }
-
-
-
-
-
-
 
 .paddingtop2{
     padding-top: 450px;
@@ -204,11 +202,32 @@
 .topic{
     width: 100%;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .car{
     width: 1920px;
 }
+.popoverc{
+margin-top: 10px;
+}
+.button-1{
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    display: inline-block;
+    background-color: #F38630;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.button-0{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
+}
 
 
 
@@ -236,6 +255,29 @@
     .p-regular {
         font-size: 40px;
     }
+    .contributor{
+        width: 150px;
+        height: 200px;
+    }
+    .bgimg3{
+        height: 1000px;
+
+    }
+    .breadcrumbs2 {
+        padding: 0;
+    }
+    .bugermenu-border{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .bugermenu-border2{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .p-header{
+        font-size: 24px;
+    }
+      
 
 }
 
@@ -255,9 +297,22 @@
     }
     .structureimg1{
         width: 70%;
+        
     }
 .topic{
-    width: 70%;
+    width: 100%;
 }
+.contributorss{
+    display: flex;
+    flex-direction: column;
+}
+.button2{
+    width: 200px;
+}
+.contributorss{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
     
 }
