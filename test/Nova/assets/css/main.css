@@ -156,7 +156,7 @@ section {
   color: #fff;
   content: "/";
 }
-
+footer
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
@@ -1691,7 +1691,7 @@ section {
 }
 
 .blog .blog-details .meta-bottom a {
-  color: rgba(27, 47, 69, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
 }
 
